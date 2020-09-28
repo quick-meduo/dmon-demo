@@ -1,0 +1,26 @@
+2020-09-28 15:08:05:294|15|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|create table A (a varchar(32),b varchar(32))|create table A (a varchar(32),b varchar(32))
+2020-09-28 15:08:38:450|248|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|create table A (a varchar(32),b varchar(32))|create table A (a varchar(32),b varchar(32))
+2020-09-28 15:08:38:493|41|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|insert into A values ('aa','a')|insert into A values ('aa','a')
+2020-09-28 15:08:38:537|43|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|insert into A values ('bb','b')|insert into A values ('bb','b')
+2020-09-28 15:08:38:670|132|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|insert into A values ('cc','c')|insert into A values ('cc','c')
+2020-09-28 15:08:38:715|44|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|insert into A values ('ccs','cs')|insert into A values ('ccs','cs')
+2020-09-28 15:08:38:760|43|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|insert into A values ('ccsx','csx')|insert into A values ('ccsx','csx')
+2020-09-28 15:08:38:804|43|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A|select * from A
+2020-09-28 15:08:38:806|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A|
+2020-09-28 15:08:38:809|0|resultset|connection -1|url |select * from A|a = 'aa', b = 'a'
+2020-09-28 15:08:38:809|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A|
+2020-09-28 15:08:38:809|0|resultset|connection -1|url |select * from A|a = 'bb', b = 'b'
+2020-09-28 15:08:38:810|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A|
+2020-09-28 15:08:38:810|0|resultset|connection -1|url |select * from A|a = 'cc', b = 'c'
+2020-09-28 15:08:38:810|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A|
+2020-09-28 15:08:38:811|0|resultset|connection -1|url |select * from A|a = 'ccs', b = 'cs'
+2020-09-28 15:08:38:811|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A|
+2020-09-28 15:08:38:811|0|resultset|connection -1|url |select * from A|a = 'ccsx', b = 'csx'
+2020-09-28 15:08:38:812|0|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A where b like '%c%'|select * from A where b like '%c%'
+2020-09-28 15:08:38:812|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A where b like '%c%'|
+2020-09-28 15:08:38:813|0|resultset|connection -1|url |select * from A where b like '%c%'|a = 'cc', b = 'c'
+2020-09-28 15:08:38:813|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A where b like '%c%'|
+2020-09-28 15:08:38:814|0|resultset|connection -1|url |select * from A where b like '%c%'|a = 'ccs', b = 'cs'
+2020-09-28 15:08:38:814|0|result|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|select * from A where b like '%c%'|
+2020-09-28 15:08:38:814|0|resultset|connection -1|url |select * from A where b like '%c%'|a = 'ccsx', b = 'csx'
+2020-09-28 15:08:38:994|179|statement|connection 0|url jdbc:p6spy:mysql://127.0.0.1:3306/test|drop table A|drop table A

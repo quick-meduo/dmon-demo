@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.mrray:p6spy:3.9.2-MR-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/mrray/p6spy/3.9.2-MR-RELEASE/p6spy-3.9.2-MR-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/mrray/p6spy/3.9.2-MR-RELEASE/p6spy-3.9.2-MR-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/cn/mrray/p6spy/3.9.2-MR-RELEASE/p6spy-3.9.2-MR-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
